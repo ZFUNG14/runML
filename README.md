@@ -116,7 +116,7 @@ functioncall:
 12. A function's parameters and any other identifiers used in a function body are local to that function, and become unavailable when the function's execution completes
 13. Programs execute their statements from top-to-bottom and function calls are the only form of control-flow
 
-Note: **The `runml` transpiler is built to strictly follow the mini-language specification below. Any `.ml` file that does not conform to these rules will not be processed successfully. Errors will be reported during validation.**
+Note: **The `runml` transpiler is built to strictly follow the mini-language specification above. Any `.ml` file that does not conform to these rules will not be processed successfully. Errors will be reported during validation.**
 
 ### ⚠️ Limitations
 
